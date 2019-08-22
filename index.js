@@ -7,7 +7,7 @@ function breakOut(array, changeValue, stopValue) {
     break;
   }
 }
-}
+
 
 
 function keepGoing(array, changeValue, skipValue) {
