@@ -10,7 +10,6 @@ function breakOut(array, changeValue, stopValue) {
  return array;
 }
 //passed
-
 function keepGoing(array, changeValue, skipValue) {
   for (let i = 0, l = array.length; i < l; i++) {
     if (array[i] === skipValue) {
@@ -20,8 +19,12 @@ function keepGoing(array, changeValue, skipValue) {
   }
   return array;
 }
-
-
+//passed
 function findBy(array, findFn) {
-
+  for (let i = 0, l = array.length; i < l; i++) {
+    if (findFn(array[i])) {
+      return array[i];
+    }
+  }
+ return null;
 }
