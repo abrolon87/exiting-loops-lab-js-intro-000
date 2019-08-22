@@ -7,7 +7,7 @@ function breakOut(array, changeValue, stopValue) {
     break;
   }
  }
-return array;
+ return array;
 }
 //passed
 
